@@ -1,0 +1,25 @@
+{
+  "name": "webpack-conf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CouldBeFree/webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CouldBeFree/webpack/issues"
+  },
+  "homepage": "https://github.com/CouldBeFree/webpack#readme",
+  "devDependencies": {
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0"
+  }
+}
