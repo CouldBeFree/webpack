@@ -20,6 +20,7 @@
   "homepage": "https://github.com/CouldBeFree/webpack#readme",
   "devDependencies": {
     "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
     "webpack": "^4.43.0"
   }
 }
