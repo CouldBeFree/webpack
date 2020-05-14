@@ -42,6 +42,12 @@ module.exports = {
 						plugins: ['transform-class-properties']
 					}
 				}
+			},
+			{
+				test: /\.hbs$/,
+				use: {
+					loader: 'handlebars-loader'
+				}
 			}
 		]
 	},
@@ -53,6 +59,10 @@ module.exports = {
 			filename: 'styles.[contenthash].css'
 		}),
 		new CleanWebpackPlugin(),
-		new HtmlWebpackPlugin()
+		new HtmlWebpackPlugin({
+			title: 'Webpack course',
+			template: 'src/index.hbs',
+			description: 'Some description'
+		})
 	]
 }
